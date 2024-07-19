@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Main container Start (It includes all elements of body)-->
+    <div class="main">
+      <!-- Navigation Start -->
+      <nav>
+        <div class="left">
+          <div class="logo">
+            <i class="fa-solid fa-microphone-lines"
+              ><span><span>B</span>oost<span>P</span>lay</span></i
+            >
+            <i class="fa-solid fa-house"><span>Home</span></i>
+            <i id="leftSrchBtn" class="fa-solid fa-magnifying-glass"
+              ><span>Search</span></i
+            >
+          </div>
+          <div class="songLib">
+            <i class="fa-solid fa-folder"><span>Your Music Library</span></i>
+            <div class="musicList">
+              <ol type="1">
+                <li>
+                  <div class="song">
+                    <h3 class="songNum">01<i class="fa-solid fa-play"></i></h3>
+                    <div class="songImg">
+                      <img
+                        src="https://img.freepik.com/premium-psd/neon-horizontal-banner-electronic-music-with-female-dj_23-2148979689.jpg"
+                        alt="song"
+                      />
+                    </div>
+                    <div class="songInfo">
+                      <h4>Alone</h4>
+                      <h5>Alan Walker</h5>
+                    </div>
+                    <i class="fa-solid fa-heart like"></i>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="song">
+                    <h3 class="songNum">02<i class="fa-solid fa-play"></i></h3>
+                    <div class="songImg">
+                      <img
+                        src="https://i.pinimg.com/originals/cb/3b/21/cb3b21cb75340ca1d721005631c01d3b.jpg"
+                        alt="song"
+                      />
+                    </div>
+                    <div class="songInfo">
+                      <h4>Galiyaan</h4>
+                      <h5>arijit Singh, Shreya Ghosal, ...</h5>
+                    </div>
+                    <i class="fa-solid fa-heart like"></i>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="song">
+                    <h3 class="songNum">03<i class="fa-solid fa-play"></i></h3>
+                    <div class="songImg">
+                      <img
+                        src="https://d347bo4ltvvnaz.cloudfront.net/images/preview/Love_Song_Banner_6x8.jpg"
+                        alt="song"
+                      />
+                    </div>
+                    <div class="songInfo">
+                      <h4>Barish</h4>
+                      <h5>Rahul, Shaili, ...</h5>
+                    </div>
+                    <i class="fa-solid fa-heart like"></i>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="song">
+                    <h3 class="songNum">04<i class="fa-solid fa-play"></i></h3>
+                    <div class="songImg">
+                      <img
+                        src="https://i.scdn.co/image/633d4785459de9d79caef69e87d3d54dcb19cfa0"
+                        alt="song"
+                      />
+                    </div>
+                    <div class="songInfo">
+                      <h4>Duniya Jala Denge</h4>
+                      <h5>B Praak</h5>
+                    </div>
+                    <i class="fa-solid fa-heart like"></i>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="song">
+                    <h3 class="songNum">05<i class="fa-solid fa-play"></i></h3>
+                    <div class="songImg">
+                      <img
+                        src="https://cdn.siasat.com/wp-content/uploads/2023/10/arijit-singh.jpg"
+                        alt="song"
+                      />
+                    </div>
+                    <div class="songInfo">
+                      <h4>Mishri</h4>
+                      <h5>Pipu Bharti, Billi, ...</h5>
+                    </div>
+                    <i class="fa-solid fa-heart like"></i>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="song">
+                    <h3 class="songNum">06<i class="fa-solid fa-play"></i></h3>
+                    <div class="songImg">
+                      <img
+                        src="https://media.insider.in/image/upload/c_crop,g_custom/v1669033779/ds4bbdue5v8qcakdth4c.jpg"
+                        alt="song"
+                      />
+                    </div>
+                    <div class="songInfo">
+                      <h4>Guli Mata</h4>
+                      <h5>Shreya Ghosal</h5>
+                    </div>
+                    <i class="fa-solid fa-heart like"></i>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="song">
+                    <h3 class="songNum">07<i class="fa-solid fa-play"></i></h3>
+                    <div class="songImg">
+                      <img
+                        src="https://framerusercontent.com/images/3T2b2VmeFdjKYCa1pEcXKE0T1Yo.jpeg"
+                        alt="song"
+                      />
+                    </div>
+                    <div class="songInfo">
+                      <h4>Alone</h4>
+                      <h5>Alan Walker</h5>
+                    </div>
+                    <i class="fa-solid fa-heart like"></i>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="links">
+            <a href="/">About Us</a>
+            <a href="/">Contact</a>
+            <a href="/">Cookies</a>
+            <a href="/">Legal</a>
+          </div>
+        </div>
+      </nav>
+      <!-- Navigation Ends -->
+
+      <!-- Main body (Right Section of Body content) start -->
+      <main>
+        <div class="right">
+          <!-- Right Head Search bar and profile start -->
+          <div class="rgtHead">
+            <div class="search">
+              <input
+                type="text"
+                name="Search"
+                id="srchHere"
+                placeholder=" Search for Artist, Songs and Podcasts..."
+                autocomplete="off"
+              />
+              <div class="srchIcon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <div title="Profile" class="accountIcon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <!-- Right Head Search bar and profile end -->
+
+          <!-- Profile section start -->
+          <div class="profileBoxMain">
+            <div class="profileBox">
+              <div class="profileBoxImg">
+                <img
+                  src="https://i.pinimg.com/736x/c9/91/00/c99100d1ad8c62c49e0732a6ebb8fbb1.jpg"
+                  alt="profile photo"
+                />
+              </div>
+              <div class="profileBoxInfo">
+                <h3>Rahul Razz</h3>
+                <h4>Web Developer | JavaScript | MERN</h4>
+              </div>
+            </div>
+            <div class="profileMoreOpt">
+              <h5>Account</h5>
+              <h5>Profile</h5>
+              <h5>Upgrade to Premium</h5>
+              <h5>Private Session</h5>
+              <h5>Setting</h5>
+              <hr />
+              <h5>Log out</h5>
+            </div>
+          </div>
+
+          <!-- Right banner start -->
+          <div class="rgtBanner">
+            <img
+              src="https://images.pexels.com/photos/1652361/pexels-photo-1652361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Banner"
+            />
+          </div>
+          <!-- Right banner end -->
+
+          <!-- Right song card/list start (first)-->
+          <h3 class="frstHeading">Bollywood Hungama</h3>
+          <div class="cardMain">
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/5650903/pexels-photo-5650903.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/4545333/pexels-photo-4545333.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/1864641/pexels-photo-1864641.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/4407688/pexels-photo-4407688.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7502182/pexels-photo-7502182.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Right song card/list end (first)-->
+
+          <!-- Right song card/list start (Second)-->
+          <h3 class="sndHeading">Arijit Specials</h3>
+          <div class="cardMain">
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Right song card/list end (Second)-->
+
+          <!-- Right song card/list start (Third)-->
+          <h3 class="sndHeading">Hollywood Dhamaka</h3>
+          <div class="cardMain">
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+            <div class="cardBack">
+              <div class="cardImg">
+                <img
+                  src="https://images.pexels.com/photos/7090876/pexels-photo-7090876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="singer Img"
+                />
+                <div class="cardPlayBtn"><i class="fa-solid fa-play"></i></div>
+              </div>
+              <div class="cardInfo">
+                <h3>Daily Mix 1</h3>
+                <h4>Arijit singh, Shreya Ghosal, Abhishek</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Right song card/list end (Third)-->
+      </main>
+      <!-- Main body (Right Section of Body content) end -->
+
+      <!-- Music player section start -->
+      <div class="player">
+        <div class="songNameMain">
+          <div class="playerSongImg">
+            <img
+              src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg"
+              alt="song"
+            />
+          </div>
+          <div class="playerSongInfo">
+            <h4>Hamari Aadhuri Kahani</h4>
+            <h5>Arijit singh</h5>
+          </div>
+        </div>
+        <div class="playBtnMain">
+          <div class="playBtnIcon">
+            <i class="fa-solid fa-repeat"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <i id="playBtn" class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-shuffle"></i>
+          </div>
+          <div class="playBtnTime">
+            <span>00:00</span>
+            <div class="timeLine">
+              <div class="timeLineFill"></div>
+              <div class="timeCir"></div>
+            </div>
+            <span>01:35</span>
+          </div>
+        </div>
+        <div class="volMain">
+          <i class="fa-solid fa-sliders"></i>
+          <i class="fa-solid fa-laptop"></i>
+          <div class="volLineMain">
+            <i id="volBtn" class="fa-solid fa-volume-xmark"></i>
+            <div class="volLine"></div>
+          </div>
+          <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
